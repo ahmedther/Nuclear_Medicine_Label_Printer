@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Bookman Old Style</family>
+    <weight>75</weight>
+    <italic>false</italic>
+    <bold>true</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>home_page</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="uhid">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string>KH1000</string>
+    </property>
+    <property name="maxLength">
+     <number>12</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="enter_uhid_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bookman Old Style</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter UHID</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="click_to_view_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset resource="imageResources/imageresource.qrc">
+      <normaloff>:/images/click_to_view_button.png</normaloff>:/images/click_to_view_button.png</iconset>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>571</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/images/download_button_red.png</normalon>
+     </iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="print_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>310</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/images/print_button.png</normalon>
+     </iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>619</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHOME">
+    <property name="title">
+     <string>HOME</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuABOUT">
+    <property name="title">
+     <string>ABOUT</string>
+    </property>
+   </widget>
+   <addaction name="menuHOME"/>
+   <addaction name="menuABOUT"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="imageResources/imageresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

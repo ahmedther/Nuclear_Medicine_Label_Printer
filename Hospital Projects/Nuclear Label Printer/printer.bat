@@ -1,0 +1,1 @@
+2printer.exe -src "Label.pdf" -prn "Microsoft XPS Document Writer"

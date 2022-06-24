@@ -1,0 +1,6 @@
+cx_Oracle
+pyqt5
+pyqt5-tools
+reportlab
+win32printing
+python 3.9.10 32 bit
